@@ -1,0 +1,99 @@
+body{
+    background-image: url(img/blue%20galaxy.jpg)
+}
+
+h2{
+    font-family: inherit;
+    color: chartreuse;
+}
+
+a{
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: antiquewhite;
+}
+.insidetee{
+    font-size: 16pt;
+    font-style: oblique;
+    color: azure;
+}
+
+.rent{
+    font-size: 15pt;
+    font-family: sans-serif;
+    color: aqua;
+}
+
+.L4{
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: aqua
+}
+
+.PARIS{
+    font-size: 18pt;
+    color: yellow;
+    font-family: sans-serif;
+}
+
+.column {
+  width: 33.33%;
+  padding: 5px;
+    display: inline;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.recent{
+    color: yellow;
+    font-size: 19pt;
+}
+
+.edition{
+    list-style: none;
+    font-style: oblique;
+    font-size: 30pt;
+    color: yellowgreen;
+    
+}
+
+.edition li a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+}
+.related-movies{
+    display: inline;
+}
+
+@media screen and (max-width:320px){
+    .edition{
+        font-size: 12pt;
+    }
+    h1{
+        font-size: 12pt;
+    }
+    
+    .ade{
+        padding: inherit;
+        float: left;
+    }
+    .column{
+        
+    }
+        
+    }
+}
+
+@media screen and (max-width:1440px){
+    
+    .edition{
+        font-size: 12pt;
+        padding: inherit
+    }
+}

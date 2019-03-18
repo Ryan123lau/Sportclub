@@ -1,0 +1,61 @@
+body{
+    
+    background-image: url(img/pure%20white.jpg);
+    text-decoration: none;
+}
+
+.text{
+    font-size: 20pt;
+    font-kerning: normal;
+    font-family: fantasy;
+}
+
+.list{
+    font-size: 21pt;
+    font-display: auto;
+    font-family: inherit;
+}
+
+h2{
+    font-family: sans-serif;
+}
+
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contact{
+    font-size: 20p;
+}
+.main-nav{
+    list-style-type: none;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.edition{
+    list-style: none;
+    font-style: oblique;
+    font-size: 25pt;
+    color: yellowgreen;
+    display: inline;
+}
+.edition li a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+}
